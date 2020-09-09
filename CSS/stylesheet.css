@@ -22,7 +22,7 @@ body {
 header {
   height:150px;
   width:100%;
-  background-color:rgba(34, 49, 52, 0.9);
+  background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -31,7 +31,7 @@ header {
 .header-left {
   line-height: 90px;
   float: left;
-  color: #02ccba;
+  color: rgba(241, 234, 195, 1);
   font-size: 40px;
 }
 
@@ -43,7 +43,7 @@ header {
 .header-right a {
   line-height: 90px;
   padding: 0 25px;
-  color: white;
+  color: rgba(241, 234, 195, 1);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -60,7 +60,7 @@ header {
 .main {
   padding: 180px 0 100px 0;
   height:3000px;
-  background-color:rgba(206, 209, 179, 1);
+  background-color:rgba(135, 136, 142, 1);
 }
 
 .line {
