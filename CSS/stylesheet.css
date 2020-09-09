@@ -60,7 +60,7 @@ header {
 .main {
   padding: 180px 0 100px 0;
   height:3000px;
-  background-color:#669999;
+  background-color:rgba(206, 209, 179, 1);
 }
 
 .line {
