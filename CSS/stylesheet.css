@@ -20,7 +20,7 @@ body {
 
 /*　ヘッダー編集　*/
 header {
-  height:150px;
+  height:80px;
   width:100%;
   background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
@@ -28,8 +28,11 @@ header {
   z-index: 10;
 }
 
+.ly-header{
+  line-height: 80px;
+}
+
 .header-left {
-  line-height: 90px;
   float: left;
   color: rgba(241, 234, 195, 1);
   font-size: 40px;
