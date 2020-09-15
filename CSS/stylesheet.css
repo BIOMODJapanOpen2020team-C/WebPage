@@ -13,15 +13,15 @@ body {
 
 .container {
 /*  max-width: 1300px;*/
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.wrapper{
+  width:1300px;
+}
 /*　ヘッダー編集　*/
 header {
-  height:80px;
-  width:100%;
+  height:90px;
   background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
   top: 0;
@@ -29,7 +29,7 @@ header {
 }
 
 .ly-header{
-  line-height: 80px;
+  line-height: 90px;
 }
 
 .header-left {
