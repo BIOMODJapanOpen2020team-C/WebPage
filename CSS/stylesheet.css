@@ -21,6 +21,7 @@ body {
 /*　ヘッダー編集　*/
 header {
   height:90px;
+  width:100%;
   background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
   top: 0;
@@ -29,12 +30,12 @@ header {
 
 .ly-header{
   line-height: 90px;
-  display:block;
 }
 
 .header-left a{
-  float: left;
   color: rgba(241, 234, 195, 1);
+  display:block;
+  float: left;
   font-size: 40px;
 }
 
