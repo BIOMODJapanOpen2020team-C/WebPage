@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.main-title {
+  height:40%;
+
+}
+
+.main-abstract {
+  height:30%;
+}
+
+.main-youtube {
+  height:30%;
+}
