@@ -36,7 +36,7 @@ header {
   color: rgba(241, 234, 195, 1);
   display:block;
   float: left;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .header-right {
@@ -51,7 +51,7 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
-  font-size: 25px;
+  font-size: 10px;
 }
 
 .header-right a:hover {
