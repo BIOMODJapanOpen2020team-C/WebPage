@@ -38,7 +38,7 @@ body {
 }
 
 .header-title a{
-
+  height:20%;
   color: rgba(241, 234, 195, 1);
   display:block;
   font-size: 25px;
@@ -46,6 +46,7 @@ body {
 
 .header-memu {
 /*  float: right; */
+  height:70%;
   margin-right: -25px;
 }
 
@@ -59,41 +60,13 @@ body {
   font-size: 20px;
 }
 
-/*
-ul.header-menu-list {
-	position: relative;
-	padding: 0;
-	list-style-type: none;
-}
-ul.header-menu-list li {
-  color: rgba(241, 234, 195, 1);
-	padding: 0.5em 0.5em 0.6em 0.5em;
-	margin-bottom: 5px;
-	line-height: 5px;
-	vertical-align: middle;
-	background: #f1c6c6;
-	border-radius: 20px 0px 0px 20px;
-	color: #ffffff;
-}
-ul.header-menu-list li::before {
-  color: rgba(241, 234, 195, 1);
-	display:inline-block;
-	vertical-align: middle;
-	content:'';
-	margin-right: 8px;
-	width:1em;
-	height: 1em;
-	background: #fff;
-	border-radius: 50%;
-}
-*/
 
 .header-menu a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header-teamname{
-  margin-top:90%;
+  height:10%;
 }
 /*end of header edit***********************************************************/
 
