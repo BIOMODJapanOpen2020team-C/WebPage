@@ -78,12 +78,15 @@ ul.header-menu-list {
 	list-style-type:none;
 }
 ul.header-menu-list li {
-  color: rgba(130, 170, 170, 1);
 	position:relative;
 /*	padding: 0em 0.3em 0.3em 1.3em; */
   line-height:90px;
-  font-size:20px;
   display:block;
+}
+
+ul.header-menu-list a{
+  color: rgba(130, 170, 170, 1);
+  font-size:20px;
 }
 ul.header-menu-list li:before {
 	position:absolute;
