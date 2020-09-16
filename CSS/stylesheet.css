@@ -21,7 +21,7 @@ body {
 /*　ヘッダー編集　*/
 #header {
   height:3000px;
-  width:40%;
+  width:30%;
   background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
   top: 0;
@@ -32,19 +32,19 @@ body {
   line-height: 90px;
 }
 
-.header-left a{
+.header-title a{
   color: rgba(241, 234, 195, 1);
   display:block;
-  float: left;
+/*  float: left; */
   font-size: 25px;
 }
 
-.header-right {
-  float: right;
+.header-memu {
+/*  float: right; */
   margin-right: -25px;
 }
 
-.header-right a {
+.header-mune a {
   /*line-height: 90px;*/
   padding: 0 25px;
   color: rgba(241, 234, 195, 1);
