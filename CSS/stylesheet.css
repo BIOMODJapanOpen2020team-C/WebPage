@@ -66,6 +66,7 @@ body {
 /*メインの編集*/
 
 #main {
+  margin-left: 35%;
   padding: 180px 0 100px 0;
   height:3000px;
   background-color:rgba(135, 136, 142, 1);
