@@ -4,6 +4,7 @@
 
 a {
   text-decoration: none;
+  text-align: center;
 }
 
 body {
@@ -37,7 +38,6 @@ body {
   display:block;
 /*  float: left; */
   font-size: 25px;
-  text-align: center;
 }
 
 .header-memu {
