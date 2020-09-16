@@ -20,8 +20,8 @@ body {
 
 /*　ヘッダー編集　*/
 #header {
-  height:3000px;
-  width:30%;
+  height:100%;
+  width:35%;
   background-color:rgba(136, 114, 132, 0.9);
   position :fixed;
   top: 0;
