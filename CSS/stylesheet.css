@@ -51,7 +51,7 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .header-right a:hover {
