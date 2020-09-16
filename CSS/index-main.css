@@ -24,14 +24,17 @@ body {
 }
 
 .main-title {
+  border: 5px, dashed, #000;
   height:40%;
 
 }
 
 .main-abstract {
+  border: 5px, dashed, #000;
   height:30%;
 }
 
 .main-youtube {
+  border: 5px, dashed, #000;
   height:30%;
 }
