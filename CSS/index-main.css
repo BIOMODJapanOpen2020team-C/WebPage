@@ -16,6 +16,13 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
+#main {
+  margin-left: 35%;
+  padding: 20px 0 20px 0;
+  height:3000px;
+  background-color:rgba(218, 227, 229, 1);
+}
+
 .main-title {
   height:40%;
 
