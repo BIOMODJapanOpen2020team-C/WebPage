@@ -27,7 +27,7 @@ body {
 #header {
   height:100%;
   width:35%;
-  background-color:rgba(171, 15, 80, 1);
+  background-color:rgba(78, 3, 48, 0.8);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -47,7 +47,7 @@ body {
 
 .header-title a{
   height:20%;
-  color: rgba(246, 239, 219, 1);
+  color: rgba(119, 160, 169, 1);
   font-size: 40px;
   font-family:"impact";
 
@@ -81,7 +81,7 @@ body {
 .header-menu-list a{
   display:block;
   line-height:90px;
-  color: rgba(246, 239, 219, 1);
+  color: rgba(119, 160, 169, 1);
   font-size:20px;
 }
 
@@ -117,11 +117,11 @@ body {
   margin-left: 35%;
   padding: 20px 0 20px 0;
   height:3000px;
-  background-color:rgba(64, 39, 23, 1);
+  background-color:rgba(108, 89, 110, 1);
 }
 
 .line {
-  color:rgba(246, 239, 219, 1);
+  color:rgba(119, 160, 169, 1);
 }
 
 /*end main edit**************************************************************:*/
