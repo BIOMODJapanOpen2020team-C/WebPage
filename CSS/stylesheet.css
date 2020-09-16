@@ -19,7 +19,7 @@ body {
 }
 
 /*　ヘッダー編集　*/
-header {
+#header {
   height:90px;
   width:100%;
   background-color:rgba(136, 114, 132, 0.9);
@@ -61,7 +61,7 @@ header {
 
 /*メインの編集*/
 
-.main {
+#main {
   padding: 180px 0 100px 0;
   height:3000px;
   background-color:rgba(135, 136, 142, 1);
