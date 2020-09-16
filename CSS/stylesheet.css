@@ -40,6 +40,7 @@ body {
 .header-title {
   height:20%;
   display:block;
+  margin:0 auto;
 }
 
 .header-title a{
@@ -53,7 +54,7 @@ body {
 /*  float: right; */
   display: block;
   height:70%;
-  margin-right: -25px;
+  margin:0 auto;
 }
 /*
 .header-menu a {
@@ -97,6 +98,7 @@ ul.header-menu-list li:before {
 .header-teamname{
   display:block;
   height:10%;
+  margin:0 auto;
 }
 /*end of header edit***********************************************************/
 
