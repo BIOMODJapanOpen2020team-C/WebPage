@@ -37,16 +37,16 @@ body {
   text-align: center;
   line-height: 90px;
   height:100%;
-  border-right: 5px, solid, rgba(80, 125, 188, 0.5);
+  border-right: 5px solid rgba(80, 125, 188, 0.5);
 }
 
 /*start header-title edit******************************************************/
 .header-title {
   height:20%;
-  margin:auto;
 }
 
 .header-title a{
+  display: block;
   height:20%;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
