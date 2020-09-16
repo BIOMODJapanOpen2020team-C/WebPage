@@ -27,7 +27,7 @@ body {
 #header {
   height:100%;
   width:35%;
-  background-color:rgba(136, 114, 132, 0.9);
+  background-color:rgba(221, 221, 221, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -35,6 +35,7 @@ body {
 
 .ly-header{
   line-height: 90px;
+  height:100%;
 }
 
 .header-title a{
@@ -49,7 +50,7 @@ body {
   height:70%;
   margin-right: -25px;
 }
-
+/*
 .header-menu a {
   line-height: 90px;
   padding: 0 25px;
@@ -59,7 +60,7 @@ body {
   transition: all 0.5s;
   font-size: 20px;
 }
-
+*/
 
 .header-menu a:hover {
   background-color: rgba(255, 255, 255, 0.3);
@@ -96,7 +97,7 @@ ul.header-menu-list li:before {
   margin-left: 35%;
   padding: 20px 0 20px 0;
   height:3000px;
-  background-color:rgba(135, 136, 142, 1);
+  background-color:rgba(179, 208, 215, 1);
 }
 
 .line {
