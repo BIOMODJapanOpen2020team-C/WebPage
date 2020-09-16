@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-/*　ヘッダー編集　*/
+/*header edit******************************************************************/
 #header {
   height:100%;
   width:35%;
@@ -60,13 +60,13 @@ body {
 }
 
 .header-menu-list {
-
+  list-style-type: none;
 }
 
 .header-menu a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-/*****************/
+/*end of header edit***********************************************************/
 
 /*メインの編集*/
 
