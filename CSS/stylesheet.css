@@ -46,6 +46,7 @@ body {
 }
 
 .header-title a{
+  height:20%;
   color: rgba(171, 15, 80, 1);
   font-size: 40px;
   font-family:"impact";
@@ -69,20 +70,22 @@ body {
 }
 */
 
-.header-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
 .header-menu-list {
-/*  color: rgba(130, 170, 170, 1);*/
-/*	padding:0.5em; */
 	list-style-type:none;
 }
+
 .header-menu-list li {
-/*	position:relative;*/
-/*	padding: 0em 0.3em 0.3em 1.3em; */
   line-height:90px;
   display:block;
+}
+.header-menu-list a{
+  line-height:90px;
+  color: rgba(171, 15, 80, 1);
+  font-size:20px;
+}
+
+.header-menu-list a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .header-menu-line {
@@ -92,24 +95,7 @@ body {
   background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
   background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
 }
-/*
-ul.header-menu-list li:before {
-	position:absolute;
-	content:'';
-	top: 90px;
-	left: 0.2em;
-	height:0.7em;
-	width:0;
-	border-style: solid;
-	border-width: 8px 0 8px 16px;
-	border-color: transparent transparent transparent #ab0f50;
-}
-*/
 
-.header-menu-list a{
-  color: rgba(171, 15, 80, 1);
-  font-size:20px;
-}
 /*end of header-menu edit******************************************************/
 /*start header-teamname edit***************************************************/
 .header-team-name{
