@@ -27,7 +27,7 @@ body {
 #header {
   height:100%;
   width:35%;
-  background-color:rgba(187, 209, 234, 1);
+  background-color:rgba(80, 125, 188, 1);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -47,7 +47,7 @@ body {
 
 .header-title a{
   height:20%;
-  color: rgba(80, 125, 188, 1);
+  color: rgba(187, 209, 234, 1);
   font-size: 40px;
   font-family:"impact";
 
@@ -81,8 +81,9 @@ body {
 .header-menu-list a{
   display:block;
   line-height:90px;
-  color: rgbargba(80, 125, 188, 1);
+  color: rgba(187, 209, 234, 1);
   font-size:20px;
+  font-family:"impact";
 }
 
 .header-menu-list a:hover {
