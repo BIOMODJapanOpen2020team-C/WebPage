@@ -37,16 +37,21 @@ body {
   line-height: 90px;
   height:100%;
 }
+.header-title {
+  height:20%;
+  display:block;
+}
 
 .header-title a{
-  height:20%;
   color: rgba(241, 234, 195, 1);
-  display:block;
   font-size: 25px;
+  font-family:"impact";
+
 }
 
 .header-memu {
 /*  float: right; */
+  display: block;
   height:70%;
   margin-right: -25px;
 }
