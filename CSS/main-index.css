@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*start main edit**************************************************************/
+#main {
+  margin-left: 35%;
+  padding: 20px 0 20px 0;
+  height:2000px;
+  background-color:rgba(218, 227, 229, 1);
+}
+
+/*start main-title edit********************************************************/
+.main-title {
+  border: 5px dashed #000;
+  height:40%;
+}
+
+.main-title h1{
+  margin:0 auto;
+}
+/*end main-title edit**********************************************************/
+/*start main-absract edit******************************************************/
+.main-abstract {
+  border: 5px dashed #000;
+  height:30%;
+}
+
+.main-abstract h1{
+  margin:0 auto;
+}
+/*end main-abstract edit*******************************************************/
+/*start main-youtube edit******************************************************/
+
+.main-youtube {
+  border: 5px dashed #000;
+  height:30%;
+}
+
+.main-youtube h1{
+  margin:0 auto;
+}
+/*end main-youtube edit********************************************************/
