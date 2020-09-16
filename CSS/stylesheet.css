@@ -38,6 +38,7 @@ body {
 }
 
 .header-title a{
+
   color: rgba(241, 234, 195, 1);
   display:block;
   font-size: 25px;
@@ -47,7 +48,7 @@ body {
 /*  float: right; */
   margin-right: -25px;
 }
-
+/*
 .header-menu a {
   line-height: 90px;
   padding: 0 25px;
@@ -57,10 +58,7 @@ body {
   transition: all 0.5s;
   font-size: 20px;
 }
-
-ul.header-menu-list {
-  list-style-type: none;
-}
+*/
 
 ul.header-menu-list {
 	position: relative;
@@ -68,15 +66,17 @@ ul.header-menu-list {
 	list-style-type: none;
 }
 ul.header-menu-list li {
+  color: rgba(241, 234, 195, 1);
 	padding: 0.5em 0.5em 0.6em 0.5em;
 	margin-bottom: 5px;
-	line-height: 1.5;
+	line-height: 5px;
 	vertical-align: middle;
 	background: #f1c6c6;
 	border-radius: 20px 0px 0px 20px;
 	color: #ffffff;
 }
 ul.header-menu-list li::before {
+  color: rgba(241, 234, 195, 1);
 	display:inline-block;
 	vertical-align: middle;
 	content:'';
@@ -92,7 +92,7 @@ ul.header-menu-list li::before {
 }
 
 .header-teamname{
-
+  margin-top:90%;
 }
 /*end of header edit***********************************************************/
 
