@@ -83,13 +83,14 @@ ul.header-menu-list li {
 /*	padding: 0em 0.3em 0.3em 1.3em; */
   line-height:90px;
   display:block;
+}
 
-	position: relative;
-	height: 1px;
-	border-width: 0;
-	background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
-	background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
-  
+ul.header-menu-line {
+  position: relative;
+  height: 1px;
+  border-width: 0;
+  background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
+  background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
 }
 /*
 ul.header-menu-list li:before {
