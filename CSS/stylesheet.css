@@ -67,6 +67,7 @@ body {
 }
 
 ul.header-menu-list {
+  color: rgba(130, 170, 170, 1);
 	padding:0.5em;
 	list-style-type:none;
 }
