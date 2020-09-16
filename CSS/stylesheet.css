@@ -42,6 +42,7 @@ body {
 /*start header-title edit******************************************************/
 .header-title {
   height:20%;
+  margin: 0 auto;
 }
 
 .header-title a{
@@ -111,15 +112,16 @@ ul.header-menu-list a{
 /*start header-teamname edit***************************************************/
 .header-team-name{
   height:10%;
+  margin: 0 auto;
 }
 
 .header-team-name a{
-
+  color: rgba(171, 15, 80, 1);
 }
 /*end of header-teamname edit**************************************************/
 /*end of header edit***********************************************************/
 
-/*メインの編集*/
+/*start main edit**************************************************************/
 
 #main {
   margin-left: 35%;
@@ -131,3 +133,5 @@ ul.header-menu-list a{
 .line {
   color:rgba(64, 39, 23, 1);
 }
+
+/*end main edit**************************************************************:*/
