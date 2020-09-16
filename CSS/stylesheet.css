@@ -73,12 +73,13 @@ body {
 
 ul.header-menu-list {
   color: rgba(130, 170, 170, 1);
-	padding:0.5em;
+/*	padding:0.5em; */
 	list-style-type:none;
 }
 ul.header-menu-list li {
 	position:relative;
-	padding: 0em 0.3em 0.3em 1.3em;
+/*	padding: 0em 0.3em 0.3em 1.3em; */
+  height:10%;
 }
 ul.header-menu-list li:before {
 	position:absolute;
@@ -93,6 +94,7 @@ ul.header-menu-list li:before {
 }
 
 .header-teamname{
+  display:block;
   height:10%;
 }
 /*end of header edit***********************************************************/
@@ -103,9 +105,9 @@ ul.header-menu-list li:before {
   margin-left: 35%;
   padding: 20px 0 20px 0;
   height:3000px;
-  background-color:rgba(179, 208, 215, 1);
+  background-color:rgba(136, 136, 136, 1);
 }
 
 .line {
-  color:white;
+  color:rgba(179, 208, 215, 1);
 }
