@@ -66,12 +66,12 @@ body {
 }
 
 .header-menu-list li {
-  line-height:90px;
+/*  line-height:90px;*/
   display:block;
 }
 .header-menu-list a{
   display:block;
-  line-height:90px;
+  height:9%;
   color: rgba(187, 209, 234, 1);
   font-size:20px;
   font-stretch:ultra-expanded;
