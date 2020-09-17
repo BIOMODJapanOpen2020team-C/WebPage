@@ -53,7 +53,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.header-title a{
+.header-title p{
   display: block;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
