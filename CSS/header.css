@@ -43,6 +43,7 @@ body {
 }
 /*start header-title edit******************************************************/
 .header-title-area{
+    border-bottom: 2px dashed #fff;
 /*  position: relative;*/
   height:15%;
   padding:0px;
