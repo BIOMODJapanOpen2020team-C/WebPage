@@ -33,6 +33,7 @@ body {
   z-index: 10;
 }
 
+/*
 .ly-header{
   text-align: center;
   line-height: 90px;
@@ -40,7 +41,6 @@ body {
 /*  position:static;
 /*  border-right: 5px solid rgba(80, 125, 188, 0.5);*/
 }
-
 /*start header-title edit******************************************************/
 .header-title-area{
   height:15%;
