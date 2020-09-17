@@ -44,7 +44,7 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title {
-  height:15%;
+  height:70%;
 }
 
 .header-title a{
@@ -93,7 +93,7 @@ body {
 }
 
 .header-menu-trigger {
-  height:70%;
+  height:15%;
 /*	position:absolute;*/
 /*	padding: 1.5em; */
 	width: 40px;
