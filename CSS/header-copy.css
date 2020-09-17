@@ -94,8 +94,8 @@ body {
 
 .header-menu-trigger {
   height:70%;
-	position:absolute;
-	padding: 1.5em;
+/*	position:absolute;*/
+/*	padding: 1.5em; */
 	width: 40px;
 	cursor: pointer;
 }
