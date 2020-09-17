@@ -43,8 +43,12 @@ body {
 }
 
 /*start header-title edit******************************************************/
-.header-title {
+.header-title-area{
   height:15%;
+}
+
+.header-title {
+  margin:auto;
 }
 
 .header-title a{
