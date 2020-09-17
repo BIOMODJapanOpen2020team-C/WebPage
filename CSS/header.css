@@ -59,7 +59,7 @@ body {
 }
 /*end of header-title edit*****************************************************/
 /*start header-menu edit*******************************************************/
-.header-memu-area {
+.header-menu-area {
   height:70%;
   background-color:rgba(240, 125, 158, 1);
 }
@@ -159,6 +159,9 @@ body {
 /*start header-teamname edit***************************************************/
 .header-team-name-area{
   height:10%;
+}
+
+.header-team-name{
   margin: 0 auto;
 }
 
