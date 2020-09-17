@@ -44,12 +44,11 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title {
-  height:20%;
+  height:15%;
 }
 
 .header-title a{
   display: block;
-  height:20%;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
   font-family:"impact";
@@ -64,20 +63,19 @@ body {
   margin:0 auto;
 }
 
+/*
 .header-menu-list {
 	list-style-type:none;
 }
 
-
-
+*/
+/*
 .header-menu-item {
-/*  line-height:90px;*/
   height:9%;
   display:block;
 }
 .header-menu-list a{
   display:block;
-/*  height:9%; */
   color: rgba(187, 209, 234, 1);
   font-size:20px;
   font-stretch:ultra-expanded;
@@ -97,6 +95,8 @@ body {
   background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
   background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
 }
+*/
+
 /*
 
 .header-menu-trigger {
