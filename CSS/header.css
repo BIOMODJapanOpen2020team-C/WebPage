@@ -93,7 +93,7 @@ body {
 }
 
 .header-menu-trigger {
-	position:relative;
+	position:absolute;
 	padding: 1.5em;
 	width: 40px;
 	cursor: pointer;
