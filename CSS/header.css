@@ -43,6 +43,7 @@ body {
 }
 /*start header-title edit******************************************************/
 .header-title-area{
+  position: relative;
   height:15%;
 }
 
