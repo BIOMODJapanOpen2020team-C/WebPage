@@ -33,14 +33,15 @@ body {
   z-index: 10;
 }
 
-/*
+
 .ly-header{
-  text-align: center;
-  line-height: 90px;
+/*  text-align: center;
+  line-height: 90px;*/
   height:100%;
-/*  position:static;
+/*  position:static; */
 /*  border-right: 5px solid rgba(80, 125, 188, 0.5);*/
 }
+
 /*start header-title edit******************************************************/
 .header-title-area {
   border-bottom: 2px dashed #fff;
