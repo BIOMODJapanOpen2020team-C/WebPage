@@ -96,7 +96,7 @@ body {
   height:15%;
 /*	position:absolute;*/
 /*	padding: 1.5em; */
-	width: 40px;
+	width: 100%;
 	cursor: pointer;
 }
 .header-menu-trigger .header-menu_bar,
