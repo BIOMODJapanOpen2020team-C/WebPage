@@ -68,8 +68,11 @@ body {
 	list-style-type:none;
 }
 
-.header-menu-list li {
+
+
+.header-menu-item {
 /*  line-height:90px;*/
+  height:9%;
   display:block;
 }
 .header-menu-list a{
