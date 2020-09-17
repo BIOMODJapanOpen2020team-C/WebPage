@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.container {
+  max-width: 100%;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*start header edit************************************************************/
+#header {
+  height:100%;
+  width:33%;
+  background-color:rgba(80, 125, 188, 1);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(90deg,rgba(80, 125, 188, 1) 95%, rgba(17, 17, 32, 0.2));
+}
+
+.ly-header{
+  text-align: center;
+  line-height: 90px;
+  height:100%;
+/*  position:static;
+/*  border-right: 5px solid rgba(80, 125, 188, 0.5);*/
+}
+
+/*start header-title edit******************************************************/
+.header-title {
+  height:15%;
+}
+
+.header-title a{
+  display: block;
+  height:20%;
+  color: rgba(187, 209, 234, 1);
+  font-size: 40px;
+  font-family:"impact";
+
+}
+/*end of header-title edit*****************************************************/
+/*start header-menu edit*******************************************************/
+.header-memu {
+  height:70%;
+}
+
+.header-menu-list {
+	list-style-type:none;
+}
+
+.header-menu-list li {
+/*  line-height:90px;*/
+  display:block;
+}
+.header-menu-list a{
+  display:block;
+  height:9%;
+  color: rgba(187, 209, 234, 1);
+  font-size:20px;
+  font-stretch:ultra-expanded;
+  font-family:"impact";
+}
+
+.header-menu-list a:hover {
+  background-image: -webkit-linear-gradient(left, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
+  background-image: linear-gradient(90deg, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
+}
+
+.header-menu-line {
+  margin:0;
+  position: relative;
+  height: 1px;
+  border-width: 0;
+  background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
+  background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
+}
+
+.header-menu-trigger {
+  height:70%;
+	position:absolute;
+	padding: 1.5em;
+	width: 40px;
+	cursor: pointer;
+}
+.header-menu-trigger .header-menu_bar,
+.header-menu-trigger .header-menu_bar:before,
+.header-menu-trigger .header-menu_bar:after {
+	display: block;
+	width: 40px;
+	height: 5px;
+	content: '';
+	-webkit-transition: all 0.5s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+	background: #FF5722;
+}
+
+.header-menu-trigger .header-menu_bar {
+	position: relative;
+	margin: 5px 0;
+}
+.header-menu-trigger .header-menu_bar:before,
+.header-menu-trigger .header-menu_bar:after {
+	position: absolute;
+}
+.header-menu-trigger .header-menu_bar:before {
+	top: 11px;
+}
+.header-menu-trigger .header-menu_bar:after {
+	bottom: 11px;
+}
+.header-menu-trigger:hover {
+
+}
+
+.header-menu-trigger:hover .header-menu_bar:after {
+  -webkit-transform: rotate(-35deg) translateX(-20px);
+          transform: rotate(-35deg) translateX(-20px);
+}
+.header-menu-trigger:hover .header-menu_bar {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+					background: transparent;
+}
+.header-menu-trigger:hover .header-menu_bar:before {
+  -webkit-transform: rotate(35deg) translateX(-20px);
+          transform: rotate(35deg) translateX(-20px);
+}
+
+/*end of header-menu edit******************************************************/
+/*start header-teamname edit***************************************************/
+.header-team-name{
+  height:15%;
+  margin: 0 auto;
+}
+
+.header-team-name a{
+/*  color: rgba(171, 15, 80, 1); */
+}
+/*end of header-teamname edit**************************************************/
+/*end of header edit***********************************************************/
+
+/*start main edit**************************************************************/
+
+#main {
+  margin-left: 33%;
+  padding: 20px 0 20px 0;
+  height:3000px;
+  background-color:rgba(218, 227, 229, 1);
+/*  background-image: linear-gradient(-90deg, rgba(218, 227, 229, 1) 98%, rgba(18, 27, 29, 0.5));*/
+}
+
+.line {
+  color:rgba(4, 8, 15, 1);
+}
+/*end main edit**************************************************************:*/
