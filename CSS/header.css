@@ -74,12 +74,10 @@ body {
 
 .header-menu-item {
   height:13%;
-  display:block;
 }
 
 .header-menu a{
   display:block;
-  height:13%;
   color: rgba(187, 209, 234, 1);
   font-size:20px;
   font-stretch:ultra-expanded;
