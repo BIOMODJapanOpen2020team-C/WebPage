@@ -45,7 +45,7 @@ body {
 /*start header-title edit******************************************************/
 .header-title-area {
   margin-top:5%;
-/*  border-bottom: 2px dashed #fff;
+  border: 2px dashed #fff;
 /*  position: relative;*/
   height:15%;
 /*  padding:0px;*/
@@ -64,7 +64,7 @@ body {
 
 
 .header-title a{
-  height:100%;
+  line-height:100%;
   position: relative;
   top: 50%;
   left: 50%;
@@ -80,6 +80,7 @@ body {
 /*end of header-title edit*****************************************************/
 /*start header-menu edit*******************************************************/
 .header-menu-area {
+  border: 2px dashed #fff;
   height:75%;
   background-color:rgba(240, 125, 158, 1);
   padding:0px;
@@ -179,6 +180,7 @@ body {
 /*end of header-menu edit******************************************************/
 /*start header-teamname edit***************************************************/
 .header-team-name-area{
+  border: 2px dashed #fff;
   padding:0px;
   margin:0px;
   height:10%;
