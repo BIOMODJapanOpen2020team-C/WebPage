@@ -35,36 +35,22 @@ body {
 
 
 .ly-header{
-/*  text-align: center;
-  line-height: 90px;*/
   height:100%;
-/*  position:static; */
-/*  border-right: 5px solid rgba(80, 125, 188, 0.5);*/
 }
 
 /*start header-title edit******************************************************/
 .header-title-area {
-/*  margin-top:5%; */
   border: 2px dashed #fff;
-/*  position: relative;*/
   height:15%;
-/*  padding:0px;*/
-/*  margin:0px;*/
 }
 
 .header-title {
   height:100%;
-  /*
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  */
 }
 
 
 .header-title a{
-  line-height:100%;
+/*  line-height:100%; */
   position: relative;
   top: 50%;
   left: 50%;
