@@ -87,11 +87,11 @@ body {
   color:rgba(80, 125, 188, 1);
   font-size:20px;
 /*  font-stretch:ultra-expanded; */
-  font-family: "impact";
+  font-family: "Meiryo UI";
   transition: all 0.5s ease-out;
 }
 
-.header-menu-item a:hover {
+.header-menu-item:hover {
   background-image: -webkit-linear-gradient(left, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
   background-image: linear-gradient(90deg, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
 }
