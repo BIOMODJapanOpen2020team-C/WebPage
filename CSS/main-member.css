@@ -27,7 +27,7 @@ body {
 
 
 /*start main-title edit********************************************************/
-.ly-member-tag {
+.ly-main-member-title {
   font-family: "Helvetica";
 }
 
@@ -61,6 +61,8 @@ body {
 /*start main-member edit*******************************************************/
 
 .ly-main-member-tag{
+  font-size: 30px;
+  font-family: "Helvetica";
 	position: relative;
 	padding: .3em;
 }
