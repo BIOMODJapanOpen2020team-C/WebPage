@@ -27,13 +27,13 @@ body {
 #header {
   height:100%;
   width:30%;
-  background-color:rgba(80, 125, 188, 1);
+  background-color:rgba(187, 209, 234, 1);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
-
+/*rgba(80, 125, 188, 1)*/
 .ly-header{
   height:100%;
 }
@@ -57,10 +57,11 @@ body {
 
 .header-title a{
   display: block;
-  color: rgba(187, 209, 234, 1);
+  color: rgba(80, 125, 188, 1);
   font-size: 40px;
   font-family:"impact";
 }
+/*rgba(187, 209, 234, 1)*/
 /*end of header-title edit*****************************************************/
 
 /*start header-menu edit*******************************************************/
@@ -78,9 +79,9 @@ body {
 
 .header-menu-item a{
   height:100%;
-  border: 3px dashed #000;
+/*  border: 3px dashed #000; */
   display: block;
-  color: rgba(187, 209, 234, 1);
+  color:rgba(80, 125, 188, 1);
   font-size:20px;
 /*  font-stretch:ultra-expanded; */
   font-family: "impact";
