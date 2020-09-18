@@ -46,21 +46,24 @@ body {
 .header-title-area {
 /*  border-bottom: 2px dashed #fff;
 /*  position: relative;*/
-/*  height:15%; */
+  height:15%;
 /*  padding:0px;*/
 /*  margin:0px;*/
 }
-/*
+
 .header-title {
+  height:100%;
+  /*
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  */
 }
-*/
+
 
 .header-title a{
-  height:30%;
+  height:100%;
   position: relative;
   top: 50%;
   left: 50%;
