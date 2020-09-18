@@ -44,7 +44,7 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title-area {
-  margin-top:5%;
+/*  margin-top:5%; */
   border: 2px dashed #fff;
 /*  position: relative;*/
   height:15%;
