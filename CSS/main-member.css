@@ -74,4 +74,21 @@ body {
 }
 
 
+.ly-member-name-font {
+	position: relative;
+	padding: .3em;
+	border-bottom: 1px solid #7986CB;
+}
+.ly-member-name-font::after {
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	z-index: 2;
+	content: '';
+	width: 15%;
+	height: 5px;
+	background-color: #303F9F;
+}
+
+
 /*end main edit****************************************************************/
