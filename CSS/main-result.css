@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*start main edit**************************************************************/
+#main {
+  margin-left: 30%;
+  padding: 20px 0 20px 0;
+  height:2000px;
+  background-color:rgba(218, 227, 229, 1);
+}
+
+
+
+/*start main-result-title edit*************************************************/
+.main-result-title-area {
+
+}
+
+.main-result-title {
+
+}
+/*end of main-result-title edit************************************************/
+/*end main edit****************************************************************/
