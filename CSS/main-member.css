@@ -75,6 +75,8 @@ body {
 
 
 .ly-member-name-font {
+  margin-left: 100px;
+  font-size: 20px;
 	position: relative;
 	padding: .3em;
 	border-bottom: 1px solid #7986CB;
