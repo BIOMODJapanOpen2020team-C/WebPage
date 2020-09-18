@@ -80,6 +80,7 @@ body {
 }
 
 .header-menu-item a{
+  height:100%;
   display: block;
   color:rgba(80, 125, 188, 1);
   font-size:30px;
