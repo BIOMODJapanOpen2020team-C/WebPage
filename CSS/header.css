@@ -47,7 +47,6 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title-area {
-/*  border: 2px dashed #fff; */
   height:15%;
 }
 
@@ -57,45 +56,27 @@ body {
 
 
 .header-title a{
-  /*
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-*/
   display: block;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
   font-family:"impact";
-/*  text-align: center;*/
-
 }
 /*end of header-title edit*****************************************************/
+
 /*start header-menu edit*******************************************************/
 .header-menu-area {
-/*  border: 2px dashed #fff; */
   height:75%;
-/*  background-color:rgba(240, 125, 158, 1);*/
-/*  padding:0px;
-  margin:0px; */
-}
-.header-menu {
-  height:100%;
-/*  margin:0 auto; */
 }
 
-/*
-.header-menu-list {
-	list-style-type:none;
+.header-menu {
+  height:100%;
 }
-*/
+
 .header-menu-item {
-  height:9%;
+  height:13%;
   display:block;
 }
 
-/*
 .header-menu-list a{
   display:block;
   color: rgba(187, 209, 234, 1);
@@ -104,10 +85,12 @@ body {
   font-family:"impact";
 }
 
+/*
 .header-menu-list a:hover {
   background-image: -webkit-linear-gradient(left, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
   background-image: linear-gradient(90deg, transparent 0%,rgba(255, 255, 255, 0.3) 50%,transparent 100%);
 }
+*/
 
 .header-menu-line {
   margin:0;
@@ -117,7 +100,7 @@ body {
   background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
   background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
 }
-*/
+
 
 /*
 
