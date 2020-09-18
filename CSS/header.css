@@ -44,21 +44,28 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title-area {
-  border-bottom: 2px dashed #fff;
+/*  border-bottom: 2px dashed #fff;
 /*  position: relative;*/
-  height:15%;
-/*  padding:0px;
-  margin:0px;*/
+/*  height:15%; */
+/*  padding:0px;*/
+/*  margin:0px;*/
 }
-
+/*
 .header-title {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+*/
 
 .header-title p{
+  height:15%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   display: block;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
