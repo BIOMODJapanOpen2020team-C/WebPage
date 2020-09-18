@@ -38,10 +38,38 @@ body {
 .main-title {
 
 }
+
+.ly-main-member-title {
+	position: relative;
+	padding: .3em;
+	text-align: center;
+}
+.ly-main-member-title:before {
+	content: "";
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	width: 150px;
+	height: 130%;
+	border-radius: 50%;
+	border: 5px solid #F48FB1;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transform: translateX(-50%);
+}
 /*end of main-title edit*******************************************************/
 /*start main-member edit*******************************************************/
 
-
+.ly-main-member-tag{
+	position: relative;
+	padding: .3em;
+}
+.ly-main-member-tag:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(to right, #E91E63, transparent);
+}
 
 
 /*end main edit****************************************************************/
