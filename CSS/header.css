@@ -57,7 +57,6 @@ body {
 
 
 .header-title a{
-/*  line-height:100%; */
   position: relative;
   top: 50%;
   left: 50%;
@@ -80,7 +79,7 @@ body {
   margin:0px; */
 }
 .header-menu {
-  height:
+  height:100%;
 /*  margin:0 auto; */
 }
 
@@ -175,13 +174,15 @@ body {
 /*start header-teamname edit***************************************************/
 .header-team-name-area{
   border: 2px dashed #fff;
-  padding:0px;
-  margin:0px;
+/*  padding:0px;
+  margin:0px; */
   height:10%;
 }
 
 .header-team-name{
-  margin: 0 auto;
+  height:100%;
+
+/*  margin: 0 auto;*/
 }
 
 .header-team-name a{
