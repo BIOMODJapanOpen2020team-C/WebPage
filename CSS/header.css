@@ -40,14 +40,14 @@ body {
 
 /*start header-title edit******************************************************/
 .header-title-area {
-  border: 2px dashed #fff;
+/*  border: 2px dashed #fff; */
   height:15%;
 }
-
+/*
 .header-title {
   height:100%;
 }
-
+*/
 
 .header-title a{
 /*  line-height:100%; */
@@ -73,6 +73,7 @@ body {
   margin:0px;
 }
 .header-menu {
+  height:
   margin:0 auto;
 }
 
