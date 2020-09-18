@@ -68,7 +68,7 @@ body {
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
   font-family:"impact";
-  text-align: center;
+/*  text-align: center;*/
 
 }
 /*end of header-title edit*****************************************************/
@@ -189,6 +189,7 @@ body {
 }
 
 .header-team-name a{
+  display: block;
 /*  color: rgba(171, 15, 80, 1); */
 }
 /*end of header-teamname edit**************************************************/
