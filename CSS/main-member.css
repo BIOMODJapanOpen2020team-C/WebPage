@@ -93,6 +93,7 @@ body {
 }
 
 .main-member-student-list a{
+  padding: 20px, auto;
   display: block;
 }
 
