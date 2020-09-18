@@ -92,5 +92,8 @@ body {
 	background-color: #303F9F;
 }
 
+.main-member-student-list a{
+  display: block;
+}
 
 /*end main edit****************************************************************/
