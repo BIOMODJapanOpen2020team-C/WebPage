@@ -57,11 +57,13 @@ body {
 
 
 .header-title a{
+  /*
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+*/
   display: block;
   color: rgba(187, 209, 234, 1);
   font-size: 40px;
@@ -72,9 +74,9 @@ body {
 /*end of header-title edit*****************************************************/
 /*start header-menu edit*******************************************************/
 .header-menu-area {
-  border: 2px dashed #fff;
+/*  border: 2px dashed #fff; */
   height:75%;
-  background-color:rgba(240, 125, 158, 1);
+/*  background-color:rgba(240, 125, 158, 1);*/
 /*  padding:0px;
   margin:0px; */
 }
@@ -83,16 +85,17 @@ body {
 /*  margin:0 auto; */
 }
 
-
+/*
 .header-menu-list {
 	list-style-type:none;
 }
-
-/*
+*/
 .header-menu-item {
   height:9%;
   display:block;
 }
+
+/*
 .header-menu-list a{
   display:block;
   color: rgba(187, 209, 234, 1);
