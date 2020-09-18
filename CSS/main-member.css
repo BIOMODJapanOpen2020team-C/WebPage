@@ -31,11 +31,11 @@ body {
   font-family: "Helvetica";
 }
 
-.main-title-area {
+.main-member-title-area {
 
 }
 
-.main-title {
+.main-member-title {
 
 }
 
@@ -52,7 +52,7 @@ body {
 	width: 150px;
 	height: 130%;
 	border-radius: 50%;
-	border: 5px solid linear-gradient(to right, #E91E63, transparent);
+	border: 5px solid  #E91E63;
 	border-left-color: transparent;
 	border-right-color: transparent;
 	transform: translateX(-50%);
