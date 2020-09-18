@@ -158,23 +158,19 @@ body {
 
 /*end of header-menu edit******************************************************/
 /*start header-teamname edit***************************************************/
+
 .header-team-name-area{
-  border: 2px dashed #fff;
-/*  padding:0px;
-  margin:0px; */
   height:10%;
 }
 
 .header-team-name{
   height:100%;
-
-/*  margin: 0 auto;*/
 }
 
 .header-team-name a{
   display: block;
-/*  color: rgba(171, 15, 80, 1); */
 }
+
 /*end of header-teamname edit**************************************************/
 /*end of header edit***********************************************************/
 
