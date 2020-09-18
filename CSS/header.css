@@ -77,11 +77,11 @@ body {
 }
 
 .header-menu-item a{
-  line-height:100%;
+  border: 3px dashed #000;
   display:block;
   color: rgba(187, 209, 234, 1);
   font-size:20px;
-  font-stretch:ultra-expanded;
+/*  font-stretch:ultra-expanded; */
   font-family:"impact";
   transition: all 0.5s;
 }
@@ -96,13 +96,13 @@ body {
   position: relative;
   height: 1px;
   border-width: 0;
-  background-image: -webkit-linear-gradient(left, transparent 0%,#283593 50%,transparent 100%);
-  background-image: linear-gradient(90deg, transparent 0%,#283593 50%,transparent 100%);
+  background-image: -webkit-linear-gradient(left, transparent 0%,#E91E63 50%,transparent 100%);
+  background-image: linear-gradient(90deg, transparent 0%,#E91E63 50%,transparent 100%);
 }
-
+E91E63
 
 /*
-
+283593
 .header-menu-trigger {
 	position:absolute;
 	padding: 1.5em;
