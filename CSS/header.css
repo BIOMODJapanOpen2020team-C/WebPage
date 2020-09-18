@@ -80,6 +80,7 @@ body {
 }
 
 .header-menu-item a{
+  padding-top:30%;
   height:100%;
   line-height: 100%;
   display: block;
