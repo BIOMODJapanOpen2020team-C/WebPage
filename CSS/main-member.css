@@ -27,6 +27,11 @@ body {
 
 
 /*start main-title edit********************************************************/
+.main-member-title-area {
+  border-top:  5px solid  #E91E63;
+  border-bottom:  5px solid  #E91E63;
+}
+
 .ly-main-member-title {
   font-size: 40px;
   font-family: "Helvetica";
