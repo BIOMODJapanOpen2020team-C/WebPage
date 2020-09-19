@@ -25,6 +25,7 @@ body {
 }
 /*start main-project-title edit************************************************/
 .ly-main-project-title {
+  font-size: 40px;
   font-family: "Helvetica";
 	position: relative;
 	padding: .3em;
