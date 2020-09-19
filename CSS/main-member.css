@@ -76,6 +76,7 @@ body {
 
 .ly-member-name-font {
   margin-left: 100px;
+  font-weight: bold;
   font-size: 20px;
 	position: relative;
 	padding: .3em;
@@ -92,14 +93,17 @@ body {
 	background-color: #303F9F;
 }
 
-.ly.member-profile {
+.ly-member-profile {
   margin-left: 150px;
+}
+
+.main-member-student-list {
+  width: 50%;
 }
 
 .main-member-student-list p,
 .main-member-mentors-list p,
 .main-member-tutors-list p{
-  width:auto;
   font-weight: bold;
   padding: 20px, auto;
 }
