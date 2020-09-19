@@ -92,8 +92,10 @@ body {
 	background-color: #303F9F;
 }
 
-.main-member-student-list a{
-  text-align: left;
+.main-member-student-list p,
+.main-member-mentors-list p,
+.main-member-tutors-list p{
+/*  text-align: left; */
   padding: 20px, auto;
 /*  display: block;*/
 }
