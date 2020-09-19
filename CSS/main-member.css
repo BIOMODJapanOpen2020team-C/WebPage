@@ -75,6 +75,7 @@ body {
 
 
 .ly-member-name-font {
+  width: 50%;
   margin-left: 100px;
   font-weight: bold;
   font-size: 20px;
@@ -97,10 +98,10 @@ body {
   margin-left: 150px;
 }
 
-.main-member-student-list {
+/*.main-member-student-list {
   width: 50%;
 }
-
+*/
 .main-member-student-list p,
 .main-member-mentors-list p,
 .main-member-tutors-list p{
