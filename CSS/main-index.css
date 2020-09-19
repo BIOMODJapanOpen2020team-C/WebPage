@@ -24,34 +24,29 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 
+.ly-main-section-title {
+  
+}
+
 /*start main-title edit********************************************************/
-.main-title {
+.main-title-area {
   border-bottom: 3px dashed #000;
   height:40%;
 }
 
-.main-title h1{
-  margin:0 auto;
-}
 /*end main-title edit**********************************************************/
 /*start main-absract edit******************************************************/
-.main-abstract {
+.main-abstract-area {
   border-bottom: 3px dashed #000;
   height:30%;
 }
 
-.main-abstract h1{
-  margin:0 auto;
-}
 /*end main-abstract edit*******************************************************/
 /*start main-youtube edit******************************************************/
 
-.main-youtube {
+.main-youtube-area {
   border-bottom: 3px dashed #000;
   height:30%;
 }
 
-.main-youtube h1{
-  margin:0 auto;
-}
 /*end main-youtube edit********************************************************/
