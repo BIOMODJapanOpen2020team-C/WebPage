@@ -29,17 +29,6 @@ body {
 /*start main-title edit********************************************************/
 .ly-main-member-title {
   font-family: "Helvetica";
-}
-
-.main-member-title-area {
-
-}
-
-.main-member-title {
-
-}
-
-.ly-main-member-title {
 	position: relative;
 	padding: .3em;
 	text-align: center;
@@ -59,6 +48,7 @@ body {
 	transform: translateX(-50%);
 }
 /*end of main-title edit*******************************************************/
+
 /*start main-member edit*******************************************************/
 
 .ly-main-member-tag{

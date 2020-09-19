@@ -23,5 +23,28 @@ body {
   height:2000px;
   background-color:rgba(218, 227, 229, 1);
 }
+/*start main-project-title edit************************************************/
+.ly-main-project-title {
+  font-family: "Helvetica";
+	position: relative;
+	padding: .3em;
+	text-align: center;
+}
+.ly-main-project-title:before {
+	content: "";
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	width: 150px;
+	height: 130%;
+	border-radius: 50%;
+	border: 5px solid  #E91E63 ;
+/*  border-image: linear-gradient(to right, #E91E63, transparent); */
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transform: translateX(-50%);
+}
+
+/*end of main-project-title edit***********************************************/
 
 /*end main edit****************************************************************/
