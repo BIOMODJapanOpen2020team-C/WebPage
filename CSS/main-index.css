@@ -24,8 +24,37 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 
+.ly-main {
+  height: 100%;
+}
+
 .ly-main-section-title {
-  
+    font-family: "Helvetica"
+}
+
+.ly-main-section-title{
+	position: relative;
+	display: inline-block;
+	padding: 0 17%;
+	text-align: center;
+	color:#F4511E;
+}
+.ly-main-section-title:before, .ly-main-section-title:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 15%;
+	height: 1px;
+	background-color: #F4511E;
+}
+.ly-main-section-title:before {
+	left:0;
+	background: linear-gradient(-45deg, transparent, #F4511E 10%, #F4511E 30%, transparent);
+}
+.ly-main-section-title:after {
+	right: 0;
+	background: linear-gradient(-45deg, transparent, #F4511E 70%, #F4511E 90%, transparent);
 }
 
 /*start main-title edit********************************************************/
@@ -40,6 +69,7 @@ body {
   border-bottom: 3px dashed #000;
   height:30%;
 }
+
 
 /*end main-abstract edit*******************************************************/
 /*start main-youtube edit******************************************************/
