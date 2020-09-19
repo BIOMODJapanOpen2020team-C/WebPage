@@ -92,6 +92,10 @@ body {
 	background-color: #303F9F;
 }
 
+.ly.member-profile {
+  margin-left: 150px;
+}
+
 .main-member-student-list p,
 .main-member-mentors-list p,
 .main-member-tutors-list p{
