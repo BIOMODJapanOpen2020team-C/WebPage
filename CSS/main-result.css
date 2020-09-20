@@ -28,14 +28,10 @@ body {
 
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
-  padding-top: 30px;
+  padding-top: 40px;
   margin:0 auto;
   height:150px;
   width: 50%;
-}
-
-.main-result-title {
-
 }
 
 .ly-main-result-title {
