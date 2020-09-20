@@ -32,6 +32,22 @@ body {
     font-family: "Helvetica"
 }
 */
+.ly-main-section-title{
+  width: 34%;
+  font-size: 30px;
+  font-family: "Helvetica";
+	position: relative;
+	padding: .3em;
+}
+.ly-main-section-title:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(to right, #E91E63, transparent);
+}
+
+
+/*
 
 .ly-main-section-title{
   font-family: "Helvetica";
@@ -61,14 +77,14 @@ body {
 
 /*start main-title edit********************************************************/
 .main-title-area {
-  border-bottom: 3px dashed #000;
+  /*border-bottom: 3px dashed #000; */
   height:40%;
 }
 
 /*end main-title edit**********************************************************/
 /*start main-absract edit******************************************************/
 .main-abstract-area {
-  border-bottom: 3px dashed #000;
+/*  border-bottom: 3px dashed #000; :/
   height:30%;
 }
 
