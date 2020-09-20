@@ -24,34 +24,24 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 /*start main-idea-title edit***************************************************/
-.main-idea-title h1 {
-     text-align: center;
-}
-
-.main-idea-title h1 span{
+.ly-main-idea-title {
      position: relative;
-     display: inline-block;
-     padding-bottom:0.5em;
-     border-bottom: 1px solid black;
+     color: white;
+     padding:0.5em 0.5em 0.5em 2em;
+     background-color: #446689;
+     border-radius:1.5em;
 }
 
-.main-idea-title h1 span::before,
-.main-idea-title h1 span::after {
+.ly-main-idea-title::after {
      position: absolute;
-     top: 100%;
-     left:50%;
-     transform:translateX(-50%);
+     top: 50%;
+     left:1em;
+     transform:translateY(-50%);
      content: '';
-     border: 10px solid transparent;
-}
-
-.main-idea-title h1 span::before {
-     border-top: 10px solid black;
-}
-
-.main-idea-title h1 span::after {
-     margin-top: -1px;
-     border-top: 10px solid rgba(218, 227, 229, 1);
+     width: 13px;
+     height:13px;
+     background-color: white;
+     border-radius:100%;
 }
 /*end of main-odea-title*******************************************************/
 
