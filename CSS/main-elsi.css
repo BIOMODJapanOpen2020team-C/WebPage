@@ -28,14 +28,14 @@ body {
 
 /*start main-elsi-title edit*************************************************/
 .main-elsi-title-area {
-    width: 50%;
+  margin:0 auto;
+  width: 50%;
   height:150px;
 }
 
 .main-elsi-title {
 
 }
-/*end of main-elsi-title edit************************************************/
 
 .ly-main-elsi-title {
   font-size: 40px;
@@ -65,5 +65,6 @@ body {
 	border-bottom: 2px solid #F57C00;
 }
 
+/*end of main-elsi-title edit************************************************/
 
 /*end main edit****************************************************************/
