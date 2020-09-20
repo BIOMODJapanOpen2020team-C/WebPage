@@ -25,6 +25,7 @@ body {
 }
 
 .ly-main-section-title{
+  width: 34%;
   font-size: 30px;
   font-family: "Helvetica";
 	position: relative;
@@ -37,6 +38,11 @@ body {
 	background: linear-gradient(to right, #E91E63, transparent);
 }
 
+.main-background-area,
+.main-problem-area,
+.main-goal-area {
+  margin:0 2%;
+}
 /*start main-project-title edit************************************************/
 .main-project-title-area {
   margin:0 auto;
