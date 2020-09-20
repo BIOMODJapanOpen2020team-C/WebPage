@@ -38,9 +38,9 @@ body {
 	background: linear-gradient(to right, #E91E63, transparent);
 }
 
-.main-background-area,
-.main-problem-area,
-.main-goal-area {
+.main-project-background-area,
+.main-project-problem-area,
+.main-project-goal-area {
   margin:0 2%;
 }
 /*start main-project-title edit************************************************/
