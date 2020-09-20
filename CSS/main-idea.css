@@ -29,6 +29,8 @@ body {
      width: 50%;
 }
 .ly-main-idea-title {
+  font-size: 40px;
+  font-family: "Helvetica";
      position: relative;
      color: white;
      padding:0.5em 0.5em 0.5em 2em;

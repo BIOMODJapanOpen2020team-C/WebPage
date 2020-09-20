@@ -38,6 +38,8 @@ body {
 /*end of main-elsi-title edit************************************************/
 
 .ly-main-elsi-title {
+  font-size: 40px;
+  font-family: "Helvetica";
 	position: relative;
 	padding: .3em;
 	text-align: center;
