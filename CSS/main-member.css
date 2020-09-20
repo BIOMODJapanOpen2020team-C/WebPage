@@ -61,14 +61,14 @@ body {
 
 /*start main-member edit*******************************************************/
 
-.main-member-students-area
-.main-member-mentors-area
-.main-member-tutors-area{
+.main-member-students-area,
+.main-member-mentors-area,
+.main-member-tutors-area {
     margin:0 5%;
 }
 
-.main-member-students-title
-.main-member-mentors-title
+.main-member-students-title,
+.main-member-mentors-title,
 .main-member-tutors-title {
     width: 34%;
 }
