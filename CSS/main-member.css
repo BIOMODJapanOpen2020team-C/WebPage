@@ -114,7 +114,7 @@ body {
 .ly-member-name-font {
   font-family: "Helvetica";
   width: 50%;
-  margin-left: 100px;
+  margin-left: 12%;
   font-weight: bold;
   font-size: 20px;
 	position: relative;
@@ -133,7 +133,7 @@ body {
 }
 
 .ly-member-profile {
-  margin-left: 12%;
+  margin-left: 15%;
 }
 
 /*
