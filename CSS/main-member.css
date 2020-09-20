@@ -46,41 +46,6 @@ body {
     border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 
-/*
-.main-member-title-area {
-  margin:0 auto;
-  width: 50%;
-  height:150px;
-}
-/*
-.main-member-title {
-  border-top:  5px solid  #E91E63;
-  border-bottom:  5px solid  #E91E63;
-}
-*/
-
-/*
-.ly-main-member-title {
-  font-size: 40px;
-  font-family: "Helvetica";
-	position: relative;
-	padding: .3em;
-	text-align: center;
-}
-.ly-main-member-title:before {
-	content: "";
-	position: absolute;
-	top: -20%;
-	left: 50%;
-	width: 150px;
-	height: 130%;
-	border-radius: 50%;
-	border: 5px solid  #E91E63 ;
-/*  border-image: linear-gradient(to right, #E91E63, transparent);
-	border-left-color: transparent;
-	border-right-color: transparent;
-	transform: translateX(-50%);
-}
 /*end of main-title edit*******************************************************/
 
 /*start main-member edit*******************************************************/
@@ -136,11 +101,5 @@ body {
   margin-left: 15%;
 }
 
-/*
-.main-member-student-list p,
-.main-member-mentors-list p,
-.main-member-tutors-list p{
-  padding: 20px, auto;
-}
-*/
+
 /*end main edit****************************************************************/
