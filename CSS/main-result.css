@@ -28,6 +28,7 @@ body {
 
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
+  margin:0 auto;
   height:150px;
   width: 50%;
 }

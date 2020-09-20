@@ -28,6 +28,7 @@ body {
 
 /*start main-future-title edit*************************************************/
 .main-future-title-area {
+  margin:0 auto;
   width: 50%;
   height:150px;
 }

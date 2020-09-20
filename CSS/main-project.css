@@ -25,7 +25,8 @@ body {
 }
 /*start main-project-title edit************************************************/
 .main-project-title-area {
-  width: 50%;  
+  margin:0 auto;
+  width: 50%;
   height:150px;
 }
 
