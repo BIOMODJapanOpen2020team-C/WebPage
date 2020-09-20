@@ -45,8 +45,9 @@ body {
 }
 
 .ly-main-text {
-  font-size:10px;
-  line-height: 10px;
+  font-size:15px;
+  line-height: 2em;
+  margin-left: 150px;
 }
 /*start main-project-title edit************************************************/
 .main-project-title-area {
