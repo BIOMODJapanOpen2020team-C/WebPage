@@ -43,6 +43,11 @@ body {
 .main-project-goal-area {
   margin:0 2%;
 }
+
+.ly-main-text {
+  font-size:10px;
+  line-height: 10px;
+}
 /*start main-project-title edit************************************************/
 .main-project-title-area {
   margin:0 auto;
