@@ -27,12 +27,14 @@ body {
 .ly-main {
   height: 100%;
 }
-
+/*
 .ly-main-section-title {
     font-family: "Helvetica"
 }
+*/
 
 .ly-main-section-title{
+  font-family: "Helvetica";
 	position: relative;
 	display: inline-block;
 	padding: 0 17%;

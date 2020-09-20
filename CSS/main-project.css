@@ -23,6 +23,20 @@ body {
   height:2000px;
   background-color:rgba(218, 227, 229, 1);
 }
+
+.ly-main-section-title{
+  font-size: 30px;
+  font-family: "Helvetica";
+	position: relative;
+	padding: .3em;
+}
+.ly-main-section-title:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(to right, #E91E63, transparent);
+}
+
 /*start main-project-title edit************************************************/
 .main-project-title-area {
   margin:0 auto;
@@ -53,5 +67,6 @@ body {
 }
 
 /*end of main-project-title edit***********************************************/
+
 
 /*end main edit****************************************************************/
