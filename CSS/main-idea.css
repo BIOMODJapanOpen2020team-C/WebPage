@@ -24,6 +24,10 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 /*start main-idea-title edit***************************************************/
+
+.main-idea-title-area{
+     width: 50%;
+}
 .ly-main-idea-title {
      position: relative;
      color: white;
