@@ -51,7 +51,7 @@ body {
 
 .main-idea-title h1 span::after {
      margin-top: -1px;
-     border-top: 10px solid black;
+     border-top: 10px solid rgba(218, 227, 229, 1);
 }
 /*end of main-odea-title*******************************************************/
 
