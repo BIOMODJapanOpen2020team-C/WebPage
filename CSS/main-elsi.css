@@ -43,7 +43,7 @@ body {
 	position: relative;
 	padding: .3em;
 	text-align: center;
-	color:#EF6C00;
+	color:black;
 }
 .ly-main-elsi-title::before,
 .ly-main-elsi-title::after {
@@ -56,13 +56,13 @@ body {
 }
 .ly-main-elsi-title::before {
 	top: 0;
-	border-top: 2px solid #F57C00;
-	border-bottom: 1px solid #F57C00;
+	border-top: 2px solid #E91E63;
+	border-bottom: 1px solid #E91E63;
 }
 .ly-main-elsi-title::after {
 	bottom: 0;
-	border-top: 1px solid #F57C00;
-	border-bottom: 2px solid #F57C00;
+	border-top: 1px solid #E91E63;
+	border-bottom: 2px solid #E91E63;
 }
 
 /*end of main-elsi-title edit************************************************/

@@ -44,7 +44,7 @@ body {
     position:  relative;    /* 位置調整 */
     font-weight:  normal;   /* 文字の太さ調整 */
     margin-bottom: 15px;    /* 周りの余白指定 */
-    border-bottom: solid 4px rgba(76, 175, 80, 0.6);        /* 線指定 */
+    border-bottom: solid 4px #E91E63;        /* 線指定 */
     border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 /*end of main-result-title edit************************************************/
