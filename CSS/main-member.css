@@ -61,6 +61,14 @@ body {
 
 /*start main-member edit*******************************************************/
 
+.main-member-students-area{
+    margin:0 5%;
+}
+
+.main-member-student-title {
+    width: 34%;
+}
+
 .ly-main-member-tag{
   font-size: 30px;
   font-family: "Helvetica";
