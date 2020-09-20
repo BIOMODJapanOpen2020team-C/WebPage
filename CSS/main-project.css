@@ -24,6 +24,10 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 /*start main-project-title edit************************************************/
+.main-project-title-area {
+  height:150px;
+}
+
 .ly-main-project-title {
   font-size: 40px;
   font-family: "Helvetica";

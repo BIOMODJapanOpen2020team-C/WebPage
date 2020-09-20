@@ -27,6 +27,10 @@ body {
 
 
 /*start main-title edit********************************************************/
+.main-member-title-area {
+  height:150px;
+}
+
 .main-member-title {
   border-top:  5px solid  #E91E63;
   border-bottom:  5px solid  #E91E63;
