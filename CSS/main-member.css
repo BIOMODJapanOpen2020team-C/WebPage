@@ -61,11 +61,15 @@ body {
 
 /*start main-member edit*******************************************************/
 
-.main-member-students-area{
+.main-member-students-area
+.main-member-mentors-area
+.main-member-tutors-area{
     margin:0 5%;
 }
 
-.main-member-student-title {
+.main-member-students-title
+.main-member-mentors-title
+.main-member-tutors-title {
     width: 34%;
 }
 
@@ -108,11 +112,11 @@ body {
   margin-left: 150px;
 }
 
-
+/*
 .main-member-student-list p,
 .main-member-mentors-list p,
 .main-member-tutors-list p{
   padding: 20px, auto;
 }
-
+*/
 /*end main edit****************************************************************/
