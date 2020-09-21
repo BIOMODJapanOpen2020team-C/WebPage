@@ -37,14 +37,12 @@ body {
 	height: 4px;
 	background: linear-gradient(to right, #E91E63, transparent);
 }
-/*
-.main-project-background-area,
-.main-project-problem-area,
-.main-project-solution-area,
-.main-project-goal-area {
+
+.main-background-content-area {
   margin:0 2%;
 }
 
+/*
 .ly-main-text {
   font-size:15px;
   line-height: 2em;
