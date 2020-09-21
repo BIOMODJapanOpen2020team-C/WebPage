@@ -24,6 +24,25 @@ body {
   background-color:rgba(218, 227, 229, 1);
 }
 
+.ly-main-section-title{
+  width: 34%;
+  font-size: 30px;
+  font-family: "Helvetica";
+	position: relative;
+	padding: .3em;
+}
+.ly-main-section-title:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(to right, #E91E63, transparent);
+}
+
+.main-result-simulation-area,
+.main-result-discussion-area {
+  margin:0 2%;
+}
+
 
 
 /*start main-result-title edit*************************************************/
