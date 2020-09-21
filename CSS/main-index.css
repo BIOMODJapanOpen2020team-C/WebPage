@@ -42,6 +42,13 @@ body {
 	background: linear-gradient(to right, #E91E63, transparent);
 }
 
+.main-title-area,
+.main-abstract-area,
+.main-youtube-area {
+    margin:0 2%;
+}
+
+
 /*start main-title edit********************************************************/
 .main-title-area {
 
