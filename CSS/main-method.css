@@ -50,6 +50,11 @@ body {
   margin-right: 11%;
 }
 
+.ly-main-fig {
+  text-align: center;
+  width:75%;
+}
+
 /*start main-method-title edit*************************************************/
 
 .main-method-title-area {
