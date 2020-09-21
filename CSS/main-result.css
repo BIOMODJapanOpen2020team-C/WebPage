@@ -43,7 +43,12 @@ body {
   margin:0 2%;
 }
 
-
+.ly-main-text {
+  font-size:15px;
+  line-height: 2em;
+  margin-left: 12%;
+  margin-right: 11%;
+}
 
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
