@@ -37,6 +37,12 @@ body {
 	height: 4px;
 	background: linear-gradient(to right, #E91E63, transparent);
 }
+
+.main-method-concept-area,
+.main-method-mechamism-area {
+    margin:0 2%;
+}
+
 /*start main-method-title edit*************************************************/
 
 .main-method-title-area {
