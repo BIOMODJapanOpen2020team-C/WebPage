@@ -92,6 +92,11 @@ body {
 	width: 100%;
 	border-bottom: solid 4px #da3c41;
 }
+
+.main-method-subtitle-area {
+  width: 34%;
+}
+
 /*end main-method-subtitle*****************************************************/
 
 /*end main edit****************************************************************/
