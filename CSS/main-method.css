@@ -66,16 +66,18 @@ body {
 
 /*end of main-odea-title*******************************************************/
 
-/*start main-method-subtitle***************************************************/
+/*start main-method-mechanism***************************************************/
 
-.main-method-subtitle {
-  border-bottom:2px solid;
+.ly-main-method-subtitle {
+  font-family: "Helvetica";
+  width: 50%;
+  margin-left: 12%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: .3em;
+  border-bottom: 2px solid #7986CB;
 }
 
-.main-method-subtitle-area {
-  width: 34%;
-}
-
-/*end main-method-subtitle*****************************************************/
+/*end main-method-mechanism*****************************************************/
 
 /*end main edit****************************************************************/
