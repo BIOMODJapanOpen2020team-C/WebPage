@@ -73,6 +73,10 @@ body {
 /*end of main-background-title edit********************************************/
 
 /*start main-background-content edit*******************************************/
+.ly-background-fig-1 {
+  width:80%;
+}
+
 .main-background-content-fig {
   margin:0 11%;
 }
