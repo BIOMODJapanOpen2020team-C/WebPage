@@ -38,7 +38,8 @@ body {
 	background: linear-gradient(to right, #E91E63, transparent);
 }
 
-.main-background-content-area {
+.main-background-content-area,
+.main-background-reference-area {
   margin:0 2%;
 }
 
