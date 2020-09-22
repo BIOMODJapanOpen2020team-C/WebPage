@@ -57,8 +57,14 @@ body {
 
 .ly-fig-title {
   text-align: center;
-  font-size: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
   font-family: "Helvetica";
+}
+
+.ly-fig-text {
+  text-align: center;
+  font-size:12px;
 }
 
 /*start main-result-title edit*************************************************/
