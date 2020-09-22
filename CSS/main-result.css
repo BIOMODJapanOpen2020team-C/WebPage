@@ -70,6 +70,18 @@ body {
 }
 /*end of main-result-title edit************************************************/
 
+/*start main-result-simulation*********************************************** */
+
+.ly-main-result-subtitle {
+  font-family: "Helvetica";
+  width: 35%;
+  margin-left: 12%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: .3em;
+  border-bottom: 2px solid #7986CB;
+}
+
 
 
 /*end main edit****************************************************************/
