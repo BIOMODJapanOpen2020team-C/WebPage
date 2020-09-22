@@ -69,11 +69,12 @@ body {
 
 .ly-fig-text {
   font-size:12px;
+  margin: auto;
 }
 
 .ly-fig-text-mini {
   font-size:12px;
-  padding: 10%;
+  margin: auto;
 }
 
 
