@@ -104,7 +104,10 @@ body {
   text-align: center;
   margin:0 auto;
 }
-.main-result-simulation-ReDi-fig {
+.main-result-simulation-ReDi-fig-1,
+.main-result-simulation-ReDi-fig-2,
+.main-result-simulation-ReDi-fig-3 {
+  float: left;
   width:50%;
   text-align: center;
   margin:0 auto;
