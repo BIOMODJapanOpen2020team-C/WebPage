@@ -69,12 +69,11 @@ body {
 
 .ly-fig-text {
   font-size:12px;
-  margin: auto;
 }
 
 .ly-fig-text-mini {
   font-size:12px;
-  margin: auto;
+  text-align: center;
 }
 
 
@@ -120,6 +119,8 @@ body {
 .main-result-simulation-redi-second,
 .main-result-simulation-redi-third {
   width:100%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .main-result-simulation-redi-fig-1,
