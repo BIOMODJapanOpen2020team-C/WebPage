@@ -20,7 +20,7 @@ body {
 #main {
   margin-left: 30%;
   padding: 20px 0 20px 0;
-  height:2000px;
+  height:4000px;
   background-color:rgba(218, 227, 229, 1);
 }
 
@@ -53,6 +53,12 @@ body {
 .ly-main-fig {
   text-align: center;
   width:65%;
+}
+
+.ly-fig-title {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Helvetica";
 }
 
 /*start main-result-title edit*************************************************/
