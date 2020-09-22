@@ -87,7 +87,8 @@ body {
   border-bottom: 2px solid #7986CB;
 }
 
-.main-result-simulation-method-fig {
+.main-result-simulation-method-fig,
+.main-result-simulation-ReDi-fig {
   text-align: center;
   margin:0 auto;
 }
