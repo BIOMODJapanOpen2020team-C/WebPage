@@ -52,8 +52,14 @@ body {
 
 .ly-main-fig {
   text-align: center;
-  width: 65%;
+  width: 55%;
 }
+
+.ly-main-Table {
+  text-align: center;
+  width: 100%;
+}
+
 
 .ly-fig-title {
   text-align: center;
