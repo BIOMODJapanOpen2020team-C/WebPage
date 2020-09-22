@@ -38,8 +38,7 @@ body {
 	background: linear-gradient(to right, #E91E63, transparent);
 }
 
-.main-result-simulation-area,
-.main-result-discussion-area {
+.main-result-simulation-area {
   margin:0 2%;
 }
 
