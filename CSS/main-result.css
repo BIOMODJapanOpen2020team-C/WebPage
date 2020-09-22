@@ -71,6 +71,11 @@ body {
   font-size:12px;
 }
 
+.ly-fig-text {
+  font-size:12px;
+  width:80%;
+}
+
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
   padding-top: 40px;
