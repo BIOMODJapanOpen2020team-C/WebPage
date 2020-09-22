@@ -126,4 +126,10 @@ body {
   margin:15px 0px;
 }
 
+.main-result-simulation-ReDi-first,
+.main-result-simulation-ReDi-second,
+.main-result-simulation-ReDi-third{
+  width:100%;
+}
+
 /*end main edit****************************************************************/
