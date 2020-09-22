@@ -52,7 +52,6 @@ body {
 
 .ly-main-fig {
   text-align: center;
-  width:65%;
 }
 
 .ly-fig-title {
@@ -99,8 +98,13 @@ body {
   border-bottom: 2px solid #7986CB;
 }
 
-.main-result-simulation-method-fig,
+.main-result-simulation-method-fig {
+  width:65%;
+  text-align: center;
+  margin:0 auto;
+}
 .main-result-simulation-ReDi-fig {
+  width:50%;
   text-align: center;
   margin:0 auto;
 }
