@@ -134,6 +134,7 @@ body {
 .main-result-simulation-redi-fig-6 {
   padding-bottom: 0px;
   width:50%;
+  float: left;
 /*  clear: left;
   position:relative; */
 }
