@@ -71,10 +71,12 @@ body {
   font-size:12px;
 }
 
-.ly-fig-text {
+.ly-fig-text-mini {
   font-size:12px;
-  width:80%;
+  padding: 10%;
 }
+
+
 
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
