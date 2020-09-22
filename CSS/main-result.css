@@ -109,14 +109,6 @@ body {
   text-align: center;
   margin:0 auto;
 }
-.main-result-simulation-ReDi-fig-1,
-.main-result-simulation-ReDi-fig-2,
-.main-result-simulation-ReDi-fig-3 {
-  float: left;
-  width:50%;
-  text-align: center;
-  margin:0 auto;
-}
 
 .main-result-simulation-ReDi-first-area,
 .main-result-simulation-ReDi-second-area,
@@ -127,8 +119,17 @@ body {
 
 .main-result-simulation-ReDi-first,
 .main-result-simulation-ReDi-second,
-.main-result-simulation-ReDi-third{
+.main-result-simulation-ReDi-third {
   width:100%;
+}
+
+.main-result-simulation-ReDi-fig-1,
+.main-result-simulation-ReDi-fig-2,
+.main-result-simulation-ReDi-fig-3 {
+  float: left;
+  width:50%;
+  text-align: center;
+  margin:0 auto;
 }
 
 /*end main edit****************************************************************/
