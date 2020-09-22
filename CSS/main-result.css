@@ -111,6 +111,7 @@ body {
 .main-result-simulation-redi-first,
 .main-result-simulation-redi-second,
 .main-result-simulation-redi-third {
+  height: auto;
   width:100%;
 }
 
