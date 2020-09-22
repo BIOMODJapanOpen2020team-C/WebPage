@@ -116,7 +116,6 @@ body {
 .main-result-simulation-redi-first,
 .main-result-simulation-redi-second,
 .main-result-simulation-redi-third {
-  height: auto;
   width:100%;
 }
 
@@ -126,7 +125,6 @@ body {
   padding-bottom: 0px;
   width:50%;
   float: right;
-  position:relative;
 }
 
 .main-result-simulation-redi-fig-4,
