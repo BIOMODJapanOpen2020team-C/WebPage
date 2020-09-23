@@ -49,6 +49,7 @@ body {
 }
 
 .ly-main-fig {
+  margin: auto;
   text-align: center;
   width:100%;
 }
