@@ -55,5 +55,11 @@ body {
     border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 
+.ly-main-text {
+  font-size:15px;
+  line-height: 2em;
+  margin-left: 12%;
+  margin-right: 11%;
+}
 
 /*end main edit****************************************************************/
