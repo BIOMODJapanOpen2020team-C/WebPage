@@ -45,6 +45,29 @@ body {
     border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 
+.ly-main-text {
+  font-size:15px;
+  line-height: 2em;
+  margin-left: 12%;
+  margin-right: 11%;
+}
+
 /*end of main-elsi-title edit************************************************/
+
+/*start main-elsi-content edit*/
+.main-elsi-content-area {
+
+}
+
+.ly-main-elsi-subtitle {
+  font-family: "Helvetica";
+  width: 35%;
+  margin-left: 12%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: .3em;
+  border-bottom: 2px solid #7986CB;
+}
+/*end of main-elsi-content edit*/
 
 /*end main edit****************************************************************/

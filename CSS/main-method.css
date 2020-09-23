@@ -55,6 +55,17 @@ body {
   width:65%;
 }
 
+.ly-fig-title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-family: "Helvetica";
+}
+
+.ly-fig-text {
+  font-size:12px;
+}
+
 /*start main-method-title edit*************************************************/
 
 .main-method-title-area {
