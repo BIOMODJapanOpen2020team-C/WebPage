@@ -57,7 +57,7 @@ body {
 
 /*start main-title edit********************************************************/
 .main-title {
-  text-align: center;
+  margin:0 auto;
   width:80%;
 }
 
