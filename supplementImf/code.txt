@@ -1,0 +1,45 @@
+//We can use double slashes for comment out. 当然日本語も大丈夫
+//条件の設定
+directive simulation{//シミュレーションの型を決める "{"で始める(/M/s)×(s/timestep)×(M/濃度)=(/濃度/timestep)
+final =5000000; //シミュレーションを行う時間 書かない場合は1000
+points = 1000; //プロットする点の数 final/pointがtimestepになる timestepが小さいほど時間がかかるが詳細な結果になる書かない場合は1000
+plots = [Acceptor(); Substrate(); Fuel(); Virus(); Antibody(); Signal1(); Signal2(); Waste1(); Waste2();];//プロットする化学種(後で定義する) 書かない場合すべてプロットされる
+} //開いた括弧は閉じる 括弧のの種類も意味があるので,基本的には例と同じものを使うこと
+directive simulator deterministic //乱数を含まないということ これを入れないと(Stochasticの場合)乱数を含むシミュレーションとなり,ランダムなふるまいになる
+//パラメータの設定
+directive parameters [kk = 3.5; k0 = 30; k1 = 3; k2 = 0.3; k3 = 0.0035; k4 = 0.00035; k5 = 0.00003; k6 = 0.000003; k7 = 0.0000003; 
+                      u0 = 0.3; u1 = 0.003; u2 = 0.0003; u3 = 0.00003; u4 = 0.000003; u5 = 0.0000003;]
+
+//ドメインの設定 bind = k2; unbind = u2;
+dom t1 = {bind = k3; unbind = 2.5* 10^(-3); colour = "red"; seq=GAGTGG}
+//dom t2 = {colour = "grey"}
+//dom t3 = {colour = "pink"}
+//dom t4 = {colour = "blue"}
+dom ta2 = {bind = k3; unbind = 10^(-10);colour = "grey"; seq=GCGAAGGGTT}
+dom tb2 = {bind = k3; unbind = 10^(-10);colour = "grey"; seq=CTTGGAGGAG}
+dom t3 = {bind = k3; unbind = 10^(-8); colour = "pink"}
+dom t4 = {bind = k3; unbind = 10^(-8); colour = "blue"}
+dom t5 = {bind = k3; unbind = 5*10^(-6);colour = "#ffcc00"; seq=AGGGTCCGG}
+dom t6 = {colour = "#000000"; seq=CAAGGGTAATAGGAC}
+
+
+//化学種の定義
+def Acceptor() = <t1^ ta2^ tb2^>[t3^ ]{t4^*} //上側で5'から3'に向けて1 2というドメインが割り当たっている一本鎖DNA "^"はトーホールドとなる短いドメインであることを表す
+def Substrate() = <t1^>[ta2^ tb2^ t5^]{t6*}::[t4^*]{t3^}
+def Fuel() = {ta2^* tb2^* t5^* t4^}
+def Virus() = {t1^* ta2^* tb2^* t3^*}
+def Antibody() = {ta2^* tb2^* t5^* t6*}
+
+//def Signal1() = {t3^* t4^*}
+//def Signal2() = <t3^ t4^>
+
+//def Waste1() = [t3^ t4^]
+//def Waste2() = <t1^>[t2^ t5^ t4^*]
+
+//初期濃度の設定 化学種Aの濃度がcなら c*Aというように表記する(nM)
+( 0*Acceptor()
+|100*Substrate()
+| 500*Fuel()
+| 10*Virus()
+
+)
