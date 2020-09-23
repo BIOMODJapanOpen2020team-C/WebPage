@@ -118,6 +118,7 @@ body {
 .main-result-simulation-redi-first,
 .main-result-simulation-redi-second,
 .main-result-simulation-redi-third {
+  margin-bottom: 20px;
   width:100%;
   display: flex;
   align-items: flex-end;
