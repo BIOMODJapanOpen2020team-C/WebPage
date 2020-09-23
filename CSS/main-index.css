@@ -54,6 +54,13 @@ body {
   width:100%;
 }
 
+.ly-main-text {
+  font-size:15px;
+  line-height: 2em;
+  margin-left: 12%;
+  margin-right: 11%;
+}
+
 
 /*start main-title edit********************************************************/
 .main-title {
