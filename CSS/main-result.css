@@ -80,7 +80,19 @@ body {
   text-align: justify;
 }
 
+.ly-main-reference-title{
+  margin-left: 12%;
+  margin-right: 11%;
+  font-size: 12px;
+  font-family:"Helvetica";
+  text-align: left;
+}
 
+.ly-main-reference-text{
+  margin-left: 12%;
+  margin-right: 11%;
+  font-size: 12px;
+}
 
 /*start main-result-title edit*************************************************/
 .main-result-title-area {
