@@ -48,10 +48,15 @@ body {
     margin:0 2%;
 }
 
+.ly-main-fig {
+  text-align: center;
+  width:100%;
+}
+
 
 /*start main-title edit********************************************************/
-.main-title-area {
-
+.main-title {
+  width:80%;
 }
 
 /*end main-title edit**********************************************************/
