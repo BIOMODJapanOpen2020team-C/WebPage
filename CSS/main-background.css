@@ -60,13 +60,17 @@ body {
 }
 
 .ly-main-reference-title{
+  margin-left: 12%;
+  margin-right: 11%;
   font-size: 12px;
   font-family:"Helvetica";
   text-align: left;
 }
 
 .ly-main-reference-text{
-    font-size: 12px;
+  margin-left: 12%;
+  margin-right: 11%;
+  font-size: 12px;
 }
 
 /*start main-background-title edit*********************************************/
@@ -94,7 +98,6 @@ body {
 
 .main-background-content-fig {
   width:60%;
-  text-align: center;
   margin:0 auto;
 }
 
