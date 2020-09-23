@@ -61,6 +61,10 @@ body {
   margin-right: 11%;
 }
 
+.ly-justify {
+  text-align: justify;
+}
+
 
 /*start main-title edit********************************************************/
 .main-title {

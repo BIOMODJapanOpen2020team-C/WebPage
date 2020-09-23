@@ -73,6 +73,9 @@ body {
   font-size: 12px;
 }
 
+.ly-justify {
+  text-align: justify;
+}
 /*start main-background-title edit*********************************************/
 .main-background-title-area {
   padding-top: 40px;
