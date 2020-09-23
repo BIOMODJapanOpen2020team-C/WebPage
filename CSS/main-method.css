@@ -66,6 +66,21 @@ body {
   font-size:12px;
 }
 
+.ly-main-reference-title{
+  margin-left: 12%;
+  margin-right: 11%;
+  font-size: 12px;
+  font-family:"Helvetica";
+  text-align: left;
+}
+
+.ly-main-reference-text{
+  margin-left: 12%;
+  margin-right: 11%;
+  font-size: 12px;
+}
+
+
 /*start main-method-title edit*************************************************/
 
 .main-method-title-area {
