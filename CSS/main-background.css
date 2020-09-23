@@ -45,13 +45,13 @@ body {
 
 .ly-main-fig {
   text-align: center;
-  width:65%;
+  width:100%;
 }
 
 .ly-fig-text {
   font-size:12px;
 }
-/*
+
 .ly-main-text {
   font-size:15px;
   line-height: 2em;
@@ -59,7 +59,16 @@ body {
   margin-right: 11%;
 }
 
-*/
+.ly-main-refernce-title{
+  font-size: 12px;
+  font-family:"Helvetica";
+  text-align: left;
+}
+
+.ly-main-reference-text{
+    font-size: 12px;
+}
+
 /*start main-background-title edit*********************************************/
 .main-background-title-area {
   padding-top: 40px;
@@ -79,18 +88,12 @@ body {
     border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
 }
 
-.ly-main-text {
-  font-size:15px;
-  line-height: 2em;
-  margin-left: 12%;
-  margin-right: 11%;
-}
-
 /*end of main-background-title edit********************************************/
 
 /*start main-background-content edit*******************************************/
 
 .main-background-content-fig {
+  width:60%;
   text-align: center;
   margin:0 auto;
 }
