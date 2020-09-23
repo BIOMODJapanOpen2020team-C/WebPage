@@ -20,7 +20,7 @@ body {
 #main {
   margin-left: 30%;
   padding: 20px 0 20px 0;
-  height:2000px;
+  height:3000px;
   background-color:rgba(218, 227, 229, 1);
 }
 
@@ -116,7 +116,8 @@ body {
 }
 
 .main-method-mechanism-1-fig,
-.main-method-mechanism-2-fig {
+.main-method-mechanism-2-fig,
+.main-method-mechanism-3-fig {
   text-align: center;
   margin:0 auto;
 }
