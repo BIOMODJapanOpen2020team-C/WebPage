@@ -147,7 +147,8 @@ body {
 	        box-sizing: border-box;
 }
 .cp_tab {
-	margin: 1em auto;
+	margin-left: 12%;
+  margin-right: 11%;
 }
 .cp_tab > input[type='radio'] {
 	margin: 0;
