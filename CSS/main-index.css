@@ -76,7 +76,12 @@ body {
 
 /*start main-youtube edit******************************************************/
 
-.main-youtube-area {
+.main-youtube {
+    text-align: center;
+}
+
+.ly-youtube {
+  text-align: center;
 }
 
 /*end main-youtube edit********************************************************/
