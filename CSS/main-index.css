@@ -20,7 +20,7 @@ body {
 #main {
   margin-left: 30%;
   padding: 20px 0 20px 0;
-  height:1700px;
+  height:1900px;
   background-color:rgba(218, 227, 229, 1);
 }
 
@@ -81,10 +81,10 @@ body {
 
 /*start main-youtube edit******************************************************/
 
-/*.main-youtube {
+.main-youtube-link-area {
     text-align: center;
 }
-*/
+
 .ly-youtube {
   text-align: center;
 }
