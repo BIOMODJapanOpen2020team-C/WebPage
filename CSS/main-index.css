@@ -44,7 +44,8 @@ body {
 
 .main-title-area,
 .main-abstract-area,
-.main-youtube-area {
+.main-youtube-area,
+.main-attention-area {
     margin:0 2%;
 }
 
